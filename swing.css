@@ -5,9 +5,73 @@
     box-sizing: border-box;     
 }
 
+
+.stretch {
+    display: block;
+    position: absolute;
+    height: 60%;
+    width: 60%;
+    left: 400px; 
+    top: 900px;
+    image-rendering: pixelated;
+    z-index: 2;
+    opacity:90%;
+    
+    }
+
+
+
+
+
 .swung {
+    display: block;
+    height: 74%;
+    width: 74%;
+    position: relative;
+    image-rendering: pixelated;
+    z-index: 2;
+    opacity: 75%;
+    }
+
+
+.free {
 display: block;
-height: 74%;
-width: 74%;
-left: 100px;
+position: relative;
+left: 480px;
+top: -990px;
+height: 75%;
+width: 75%;
+z-index: 2;
+}
+
+.bg {
+position: absolute;
+display: block;
+z-index: 1;
+height: 180%;
+width: 100%;
+top: 0px;
+
+}
+
+.money {
+position: absolute;
+z-index: 2;
+display: block;
+top:100px;
+left: 944px;
+height: 46%;
+width: auto;
+
+}
+
+.bodega {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    top: 1130px;
+    left: 380px;
+    width: 30%;
+    height: auto;
+    opacity: 80%;
 }
