@@ -1,0 +1,13 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;     
+}
+
+.swung {
+display: block;
+height: 74%;
+width: 74%;
+left: 100px;
+}
